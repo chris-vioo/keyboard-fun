@@ -1,0 +1,16 @@
+.custom {}
+.custom-glyph-1:after { 
+  /* Set the background for this glyph to your image */
+  background-repeat: no-repeat;
+  background-image: url('https://christiandeabr.eu/keycap-images/esc.jpeg'); 
+  background-position: center;
+  
+  /* Content is required for it to appear; this is a non-breaking-space */
+  content:'\00a0'; 
+  display:inline-block;
+
+  /* Sizing in EMs allows the glyph to scale with the font-size */
+  width: 2em; 
+  height: 2em; 
+  background-size: 2.55em; 
+}
